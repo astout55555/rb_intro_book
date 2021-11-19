@@ -29,3 +29,5 @@ end
 puts c #unlike a block of code, where a variable assigned in the outer scope would be accessible,
 #this puts will display 5 because the two scopes here don't interact
 #when defining a method, that scope is totally separate
+#that doesn't prevent you from mutating the "caller"
+#i.e., see rb_intro_book/methods/mutate.rb
